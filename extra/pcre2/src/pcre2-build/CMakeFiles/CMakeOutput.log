@@ -1,0 +1,408 @@
+The system is: Linux - 5.10.103-v8+ - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-pie;-fPIC;-fstack-protector;--param=ssp-buffer-size=4
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c2da/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_9c2da.dir/build.make CMakeFiles/cmTC_9c2da.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_9c2da.dir/testCCompiler.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_9c2da.dir/testCCompiler.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9c2da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c2da.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4     -rdynamic CMakeFiles/cmTC_9c2da.dir/testCCompiler.c.o  -o cmTC_9c2da 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e08e/fast && make[3]: Entering directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6e08e.dir/build.make CMakeFiles/cmTC_6e08e.dir/build
+make[4]: Entering directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4    -v -o CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-6) 
+COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/8/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o -version -fPIC -fstack-protector --param ssp-buffer-size=4 -o /tmp/ccF9qakF.s
+GNU C17 (Debian 8.3.0-6) version 8.3.0 (aarch64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/8/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/aarch64-linux-gnu/8/include-fixed
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 8.3.0-6) version 8.3.0 (aarch64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b68f6f266e9be479e3064a3b1dd2dd2d
+COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o /tmp/ccF9qakF.s
+GNU assembler version 2.31.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_6e08e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e08e.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4    -v -rdynamic CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o  -o cmTC_6e08e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-6) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-rdynamic' '-o' 'cmTC_6e08e' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxEgWrP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_6e08e /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-rdynamic' '-o' 'cmTC_6e08e' '-mlittle-endian' '-mabi=lp64'
+make[4]: Leaving directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/8/include-fixed]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/8/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/8/include-fixed] ==> [/usr/lib/gcc/aarch64-linux-gnu/8/include-fixed]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/8/include;/usr/local/include;/usr/lib/gcc/aarch64-linux-gnu/8/include-fixed;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6e08e/fast && make[3]: Entering directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6e08e.dir/build.make CMakeFiles/cmTC_6e08e.dir/build]
+  ignore line: [make[4]: Entering directory '/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4    -v -o CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/8/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o -version -fPIC -fstack-protector --param ssp-buffer-size=4 -o /tmp/ccF9qakF.s]
+  ignore line: [GNU C17 (Debian 8.3.0-6) version 8.3.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/8/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/8/include-fixed]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 8.3.0-6) version 8.3.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b68f6f266e9be479e3064a3b1dd2dd2d]
+  ignore line: [COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o /tmp/ccF9qakF.s]
+  ignore line: [GNU assembler version 2.31.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-o' 'CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_6e08e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e08e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4    -v -rdynamic CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o  -o cmTC_6e08e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-pie' '-fPIC' '-fstack-protector' '--param' 'ssp-buffer-size=4' '-v' '-rdynamic' '-o' 'cmTC_6e08e' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxEgWrP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_6e08e /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxEgWrP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6e08e] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_6e08e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8] ==> [/usr/lib/gcc/aarch64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/8;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f2d8/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_9f2d8.dir/build.make CMakeFiles/cmTC_9f2d8.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_9f2d8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_9f2d8.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f2d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f2d8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_9f2d8.dir/CheckIncludeFile.c.o  -o cmTC_9f2d8 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_939e9/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_939e9.dir/build.make CMakeFiles/cmTC_939e9.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_939e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_939e9.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_939e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_939e9.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_939e9.dir/CheckIncludeFile.c.o  -o cmTC_939e9 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cdb0/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_4cdb0.dir/build.make CMakeFiles/cmTC_4cdb0.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_4cdb0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_4cdb0.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4cdb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cdb0.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_4cdb0.dir/CheckIncludeFile.c.o  -o cmTC_4cdb0 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eeb81/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_eeb81.dir/build.make CMakeFiles/cmTC_eeb81.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_eeb81.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_eeb81.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eeb81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb81.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_eeb81.dir/CheckIncludeFile.c.o  -o cmTC_eeb81 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_945ab/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_945ab.dir/build.make CMakeFiles/cmTC_945ab.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_945ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_945ab.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_945ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_945ab.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_945ab.dir/CheckIncludeFile.c.o  -o cmTC_945ab 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5ef8/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_c5ef8.dir/build.make CMakeFiles/cmTC_c5ef8.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c5ef8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_c5ef8.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5ef8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5ef8.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_c5ef8.dir/CheckIncludeFile.c.o  -o cmTC_c5ef8 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the bcopy exist passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d75d/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_8d75d.dir/build.make CMakeFiles/cmTC_8d75d.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_8d75d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_8d75d.dir/CheckSymbolExists.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8d75d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d75d.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_8d75d.dir/CheckSymbolExists.c.o  -o cmTC_8d75d 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+File /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7384/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_c7384.dir/build.make CMakeFiles/cmTC_c7384.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_c7384.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_c7384.dir/CheckSymbolExists.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7384.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_c7384.dir/CheckSymbolExists.c.o  -o cmTC_c7384 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+File /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1abc/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_e1abc.dir/build.make CMakeFiles/cmTC_e1abc.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e1abc.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_e1abc.dir/CheckSymbolExists.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e1abc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1abc.dir/link.txt --verbose=1
+/usr/bin/cc  -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"     -rdynamic CMakeFiles/cmTC_e1abc.dir/CheckSymbolExists.c.o  -o cmTC_e1abc 
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+File /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
