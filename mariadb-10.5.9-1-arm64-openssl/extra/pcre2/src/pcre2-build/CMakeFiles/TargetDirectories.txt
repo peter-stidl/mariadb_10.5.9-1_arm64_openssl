@@ -1,0 +1,8 @@
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/install/strip.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/install/local.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/pcre2-posix.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/edit_cache.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/rebuild_cache.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/pcre2-8.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/list_install_components.dir
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/install.dir

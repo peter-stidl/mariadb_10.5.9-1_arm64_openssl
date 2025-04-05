@@ -75,6 +75,6 @@ mariadb-10.5.9-1-arm64-openssl/     # Root directory of the MariaDB source code
 ## New Source Package
 
 - `mariadb-10.5.9-1-arm64-openssl.orig.tar.gz`
-  `md5sum` -- `1796a7b3ae9e0e0140bad0e81976d79d`
-  `sha256sum` -- `16550091bce18344f0b74f00b67ce7204720a3af7134b55232fdffc0d269d261`
+  `md5sum` -- `1230402b699b3f9c91e05bf21ca8df85`
+  `sha256sum` -- `b38ad87750a39d060d652372159f13123930a2b3acd4929406629953d003b5b5`
 

@@ -1,0 +1,128 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ebef0/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_ebef0.dir/build.make CMakeFiles/cmTC_ebef0.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_ebef0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_ebef0.dir/CheckIncludeFile.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: windows.h: Datei oder Verzeichnis nicht gefunden
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_ebef0.dir/build.make:66: CMakeFiles/cmTC_ebef0.dir/CheckIncludeFile.c.o] Fehler 1
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:121: cmTC_ebef0/fast] Fehler 2
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Determining if the memfd_create exist failed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80879/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_80879.dir/build.make CMakeFiles/cmTC_80879.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_80879.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_80879.dir/CheckSymbolExists.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘memfd_create’ undeclared (first use in this function)
+   return ((int*)(&memfd_create))[argc];
+                   ^~~~~~~~~~~~
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_80879.dir/build.make:66: CMakeFiles/cmTC_80879.dir/CheckSymbolExists.c.o] Fehler 1
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:121: cmTC_80879/fast] Fehler 2
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+File /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memfd_create
+  return ((int*)(&memfd_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the secure_getenv exist failed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76f5c/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_76f5c.dir/build.make CMakeFiles/cmTC_76f5c.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_76f5c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src"    -o CMakeFiles/cmTC_76f5c.dir/CheckSymbolExists.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘secure_getenv’ undeclared (first use in this function)
+   return ((int*)(&secure_getenv))[argc];
+                   ^~~~~~~~~~~~~
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_76f5c.dir/build.make:66: CMakeFiles/cmTC_76f5c.dir/CheckSymbolExists.c.o] Fehler 1
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:121: cmTC_76f5c/fast] Fehler 2
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+File /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef secure_getenv
+  return ((int*)(&secure_getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_UNINITIALIZED failed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c3ca/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_2c3ca.dir/build.make CMakeFiles/cmTC_2c3ca.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2c3ca.dir/src.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src" -DHAVE_ATTRIBUTE_UNINITIALIZED  -Werror   -o CMakeFiles/cmTC_2c3ca.dir/src.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/src.c
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/src.c:1:1: error: ‘uninitialized’ attribute directive ignored [-Werror=attributes]
+ int main() { char buf[128] __attribute__((uninitialized)); (void)buf; return 0; }
+ ^~~
+cc1: all warnings being treated as errors
+make[4]: *** [CMakeFiles/cmTC_2c3ca.dir/build.make:66: CMakeFiles/cmTC_2c3ca.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:121: cmTC_2c3ca/fast] Fehler 2
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+Source file was:
+int main() { char buf[128] __attribute__((uninitialized)); (void)buf; return 0; }
+Performing C SOURCE FILE Test INTEL_CET_ENABLED failed with the following output:
+Change Dir: /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb4c7/fast && make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make -f CMakeFiles/cmTC_fb4c7.dir/build.make CMakeFiles/cmTC_fb4c7.dir/build
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_fb4c7.dir/src.c.o
+/usr/bin/cc   -pie -fPIC -fstack-protector --param=ssp-buffer-size=4 -I"/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2/src" -DINTEL_CET_ENABLED   -o CMakeFiles/cmTC_fb4c7.dir/src.c.o   -c /home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/src.c
+/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp/src.c:2:5: error: #error CET is not enabled
+    #error CET is not enabled
+     ^~~~~
+make[4]: *** [CMakeFiles/cmTC_fb4c7.dir/build.make:66: CMakeFiles/cmTC_fb4c7.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:121: cmTC_fb4c7/fast] Fehler 2
+make[3]: Verzeichnis „/home/pi/mariadb-10.5.9/extra/pcre2/src/pcre2-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+Source file was:
+#ifndef __CET__
+   #error CET is not enabled
+   #endif
+   int main() { return 0; }

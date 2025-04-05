@@ -1,0 +1,20 @@
+# 
+# MariaDB ColumnStore Log Rotate file that gets installed in /etc/logrotate.d
+# as part of the package installation
+# 
+
+/var/log/mariadb/columnstore/*.log {
+    missingok
+    rotate 7
+    daily
+    dateext
+	copytruncate
+    olddir /var/log/mariadb/columnstore/archive
+    su root root 
+}
+@ENGINE_SYSCONFDIR@/columnstore/Columnstore.xml {
+    daily
+    dateext
+	copy
+    olddir @ENGINE_SYSCONFDIR@/columnstore
+}

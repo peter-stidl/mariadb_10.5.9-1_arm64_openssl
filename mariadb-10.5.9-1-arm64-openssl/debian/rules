@@ -1,0 +1,50 @@
+# -*- makefile -*-
+
+# Debhelper Kompatibilitä?tslevel
+export DH_COMPAT=12
+export DEB_VERSION=10
+
+# Paketinformationen
+PKG_NAME = mariadb-10.5.9-1-arm64-openssl
+PKG_VERSION = 10.5.9-1
+PKG_ARCH = arm64
+
+# Verzeichnisse
+BUILD_DIR = $(CURDIR)/build
+SOURCE_DIR = $(CURDIR)/mariadb-10.5.9-1-arm64-openssl
+DESTDIR = $(CURDIR)/debian/$(PKG_NAME)
+
+# Standard-Ziel
+%:
+	dh $@ --with=cmake
+
+# Konfiguration
+override_dh_auto_configure:
+	dh_auto_configure -- -DCMAKE_INSTALL_PREFIX=/usr \
+	                     -DWITH_SSL=system \
+	                     -DPCRE2_INCLUDE_DIR=$(SOURCE_DIR)/pcre2-10.36/include \
+	                     -DPCRE2_LIBRARY=$(SOURCE_DIR)/pcre2-10.36/lib/libpcre2-8.so
+
+# Kompilieren
+override_dh_auto_build:
+	dh_auto_build
+
+# Installation
+override_dh_auto_install:
+	# Standardinstallation
+	dh_auto_install
+
+	# Zusä?tzliche manuelle Installationen (aus cmake_install.cmake)
+	install -d $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/README.md $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/CREDITS $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/COPYING $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/THIRDPARTY $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/EXCEPTIONS-CLIENT $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/Docs/INSTALL-BINARY $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+	install -m 644 $(SOURCE_DIR)/Docs/README-wsrep $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
+
+# Aufrä?umen
+override_dh_auto_clean:
+	dh_auto_clean
+

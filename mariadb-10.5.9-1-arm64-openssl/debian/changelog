@@ -1,0 +1,10 @@
+mariadb-10.5 (10.5.9-1~arm64openssl1) unstable; urgency=medium
+
+  * Initial release of MariaDB 10.5.9 with OpenSSL support for ARM64 architecture.
+  * Replaced YaSSL with OpenSSL.
+  * Added custom build logic to fetch PCRE2 from the official Git repository.
+  * Integrated the PCRE2 package as a bundled dependency to avoid external server reliance.
+  * Fixed various minor issues in the build process for ARM64 architecture.
+
+ -- Global Power <global_power@t-online.de>  Thu, 04 Apr 2025 12:00:00 +0000
+

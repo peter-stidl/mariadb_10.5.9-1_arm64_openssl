@@ -1,0 +1,11 @@
+# MariaDB Columnstore Alias Commands
+#
+alias ma=mcsadmin
+alias core='cd /var/log/mariadb/columnstore/corefiles'
+alias tdebug='tail -f /var/log/mariadb/columnstore/debug.log'
+alias tinfo='tail -f /var/log/mariadb/columnstore/info.log'
+alias terror='tail -f /var/log/mariadb/columnstore/err.log'
+alias twarning='tail -f /var/log/mariadb/columnstore/warning.log'
+alias tcrit='tail -f /var/log/mariadb/columnstore/crit.log'
+alias dbrm='cd /var/lib/columnstore/data1/systemFiles/dbrm'
+alias mcsmodule='cat /var/lib/columnstore/local/module'
