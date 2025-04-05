@@ -1,6 +1,6 @@
 # -*- makefile -*-
 
-# Debhelper Kompatibilitä?tslevel
+# Debhelper Kompatibilitätslevel
 export DH_COMPAT=12
 export DEB_VERSION=10
 
@@ -34,7 +34,7 @@ override_dh_auto_install:
 	# Standardinstallation
 	dh_auto_install
 
-	# Zusä?tzliche manuelle Installationen (aus cmake_install.cmake)
+	# Zusätzliche manuelle Installationen (aus cmake_install.cmake)
 	install -d $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
 	install -m 644 $(SOURCE_DIR)/README.md $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
 	install -m 644 $(SOURCE_DIR)/CREDITS $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
@@ -44,7 +44,7 @@ override_dh_auto_install:
 	install -m 644 $(SOURCE_DIR)/Docs/INSTALL-BINARY $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
 	install -m 644 $(SOURCE_DIR)/Docs/README-wsrep $(DESTDIR)/usr/share/doc/$(PKG_NAME)/
 
-# Aufrä?umen
+# Aufräumen
 override_dh_auto_clean:
 	dh_auto_clean
 
