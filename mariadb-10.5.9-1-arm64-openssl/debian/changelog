@@ -1,4 +1,4 @@
-mariadb-10.5 (10.5.9-1~arm64openssl1) unstable; urgency=medium
+mariadb-10.5.9-1-arm64-openssl (10.5.9-1~arm64openssl1) unstable; urgency=medium
 
   * Initial release of MariaDB 10.5.9 with OpenSSL support for ARM64 architecture.
   * Replaced YaSSL with OpenSSL.
